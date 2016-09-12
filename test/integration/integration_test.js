@@ -4,8 +4,8 @@ const expect = require('chai').expect;
 const fs = require('fs');
 const Converter = require("csvtojson").Converter;
 
-const aggregator = require('../src/aggregator');
-const Calculator = require('../src/calculator');
+const aggregator = require('../../src/aggregator');
+const Calculator = require('../../src/calculator');
 
 describe("data file", function(){
   it("should be readable, parsable, and calculable", function(done){
